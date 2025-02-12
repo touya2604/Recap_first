@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+.title{
+  text-align: center;
+  text-shadow: 3px 3px 10px black;
+}
+
+#form{
+  text-align: left;
+  font-weight: bold;
+
+}
+#LF{
+  float: left;
+  margin-left: 50px;
+}
+
+#show-list{
+  float: right;
+  font-weight: bold;
+  margin-right: 50px;
+}
+#image{
+  height: 100px;
+}
+body{
+  background-color: aqua;
+}
