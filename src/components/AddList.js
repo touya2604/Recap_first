@@ -20,6 +20,13 @@ class AddList extends React.Component {
       arrThings: currentR,
     });
   };
+  removeAll = () => {
+    let currentRA = this.state.arrThings;
+    currentRA = [{ id: "", thing: "", time: "" }];
+    this.setState({
+      arrThings: currentRA,
+    });
+  };
   render() {
     return (
       <>
@@ -27,6 +34,7 @@ class AddList extends React.Component {
         <ShowList
           arrThings={this.state.arrThings}
           removeList={this.removeList}
+          removeAll={this.removeAll}
         />
       </>
     );
